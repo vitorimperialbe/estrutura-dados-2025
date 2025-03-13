@@ -21,7 +21,7 @@ public class EscopoMetodoEParametro {
  
      // Main Method
      public static void main(String args[]) {
-         Geeks t = new Geeks();
-         t.testFunc(5); 
+         EscopoMetodoEParametro t = new EscopoMetodoEParametro();
+         t.testaFuncao(5); 
      }
 }
