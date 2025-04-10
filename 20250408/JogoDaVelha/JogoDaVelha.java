@@ -47,6 +47,10 @@ public class JogoDaVelha {
 
     
     public String toString() {
+        /** Implementar o método to String que deve retornar
+         * uma string com o tabuleiro do jogo da velha com as peças
+         * nas posições corretas.
+         */
         String retorno = "";
         for (int i=0; i<3;i++){
             for (int j=0; j<3; j++){
@@ -67,10 +71,6 @@ public class JogoDaVelha {
             }
 
         }   
-        /** Implementar o método to String que deve retornar
-         * uma string com o tabuleiro do jogo da velha com as peças
-         * nas posições corretas.
-         */
         return retorno;
     }
 }
