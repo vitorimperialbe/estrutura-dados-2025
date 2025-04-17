@@ -4,7 +4,8 @@ public class JogoDaVelha {
     protected int tabuleiro[][] = new int[3][3];
     protected int jogador;
 
-    public JogoDaVelha() {
+    public JogoDaVelha(int D) {
+        this.D = D;
         limpaTabuleiro();
     }
 

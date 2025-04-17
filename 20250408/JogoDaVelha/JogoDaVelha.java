@@ -1,4 +1,4 @@
-public class JogoDaVelha {
+zpublic class JogoDaVelha {
     protected static final int X = 1, O = -1;
     protected static final int VAZIO = 0;
     protected int tabuleiro[][] = new int[3][3];
