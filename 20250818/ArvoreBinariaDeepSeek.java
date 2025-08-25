@@ -1,11 +1,14 @@
-public class ArvoreBinaria implements Arvore {
+public class ArvoreBinariaDeepSeek implements Arvore{
 
     private NodoArvore raiz;
 
-    public ArvoreBinaria() {
+    public ArvoreBinariaDeepSeek() {
         this.raiz = null;
     }  
 
+
+
+    
     // --- MÉTODO DE PESQUISA ---
     // Esse método é um modelo do tipo de recursão que pode 
     // ser utilizado para implementar a pesquisa 
@@ -62,13 +65,17 @@ public class ArvoreBinaria implements Arvore {
         return noAtual;
     }
 
-
-
     @Override
     public void remover(int valor) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
+    @Override
+    public void imprime_preFixado() {
+        // throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    
 
 
 }
