@@ -96,9 +96,6 @@ public class ArvoreBinaria implements Arvore {
      */
     @Override
     public void imprimePreFixado() {
-        System.out.println("Imprimindo em ordem pré-fixada:");
-        imprimePreFixadoRecursivo(this.raiz);
-        System.out.println();
     }
     
     /**
@@ -106,11 +103,6 @@ public class ArvoreBinaria implements Arvore {
      * @param no O nó raiz da subárvore a ser impressa.
      */
     private void imprimePreFixadoRecursivo(NodoArvore no) {
-        if (no != null) {
-            System.out.print(no.chave + " ");
-            imprimePreFixadoRecursivo(no.filhoEsquerdo);
-            imprimePreFixadoRecursivo(no.filhoDireito);
-        }
     }
 
 }
